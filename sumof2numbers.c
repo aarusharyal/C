@@ -1,6 +1,7 @@
 #include<stdio.h> 
 int main(){ 
 int x,y,z;
+// Initializing the variables x,y and z
 printf("enter the first number"); 	
 //Asking the user for the first number.
 scanf("%d",&x); 					
@@ -14,4 +15,5 @@ z=x+y;
 printf("sum of two numbers is :%d",z);
 //Displaying the final result on the terminal.
  return 0;
+
  }
