@@ -12,8 +12,10 @@ int main()
 		printf("The number is exactly divisible by the number 7 ");
 	}
 	else
+	// When the condition isn't verified
 	{
 		printf("The number is not exactly divisible by the number 7 ");
 	}
 	return 0;
+
 }
