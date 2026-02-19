@@ -29,9 +29,9 @@ int main() {
 	{
         realPart = -b / (2 * a);                  // Real part of complex root
         imagPart = sqrt(-discriminant) / (2 * a); // Imaginary part of complex root
-        printf("Complex roots: root1 = %.2lf + %.2lfi, root2 = %.2lf - %.2lfi\n",
-               realPart, imagPart, realPart, imagPart);
+        printf("Complex roots: root1 = %.2lf + %.2lfi, root2 = %.2lf - %.2lfi\n",realPart, imagPart, realPart, imagPart);
     }
     return 0; 
 	// End of program
 }
+
