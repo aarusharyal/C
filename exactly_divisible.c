@@ -2,6 +2,7 @@
 int main()
 {
 	int n,x;
+	// Declaring the variables
 	printf("Enter the number");
 	// Asking the user for the number
 	scanf("%d",&n);
@@ -25,4 +26,5 @@ int main()
 		printf("The number is not exactly divisible by the second number");
 	}
 	return 0;
+
 }
