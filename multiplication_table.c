@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main(){
+int main()
+{
 	int i,j,k;
 	printf("Enter the required number: \n");
 	//Asking the user for the number
@@ -16,7 +17,6 @@ int main(){
 			k=j*i;
 			//carrying out the multiplication operation
 			printf("%d*%d=%d\n",i,j,k);
-			
 		}
 	}
 	return 0;
