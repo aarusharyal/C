@@ -1,6 +1,7 @@
 // Code for checking if the provided number is palindrome or not
 #include<stdio.h>
-int main(){
+int main()
+{
 	int n,m,i=0,temp;
 	printf("Enter the number:");
 	// Asking the user for the number
@@ -15,12 +16,13 @@ int main(){
 		i=i*10+m;
 		n=n/10;
 	}
-	if (i==temp)
+	if(i==temp)
 	// Validating the condition
 	{
 		printf("It is a palindrome number");
 	}
-	else {
+	else
+	{
 		printf("It is not a palindrome number.");
 	}
 	return 0;
