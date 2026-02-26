@@ -1,5 +1,6 @@
 #include<stdio.h>
- int main() {
+int main()
+{
   int x=5; 
   x++; 			// post increment operater 
   printf("x= %d\n",x); ++x; //pre increment operater 
@@ -8,3 +9,4 @@
   printf("x= %d\n",x); 
   return 0; 
   }
+
